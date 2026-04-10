@@ -14,9 +14,11 @@ python3 bypass.py --url http://IP --username USER --password PASS
 
 ## Request for search engines
 ```
+title="ConnectWise Control Remote Support Software" && port="8040"
 - FOFA: "ScreenConnect" && country="RU" 
 - HHOW: web.body="ScreenConnect" and ip.country=="Russia"
 - Shodan: ScreenConnect country:"RU"
+title="noVNC" && app="nginx" && port="8006"
 ```
 
 ## Requirements
